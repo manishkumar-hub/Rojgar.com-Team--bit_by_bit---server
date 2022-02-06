@@ -3,7 +3,7 @@ const employeeRouter= express.Router();
 const employeeSchema= require("../models/employee");
 
 
-employeeRouter.get("/employee/:id",(req,res)=>{
-    
+employeeRouter.get("/employee",(req,res)=>{
+    res.send("Hello from employee router ")
 })
 module.exports = employeeRouter;
