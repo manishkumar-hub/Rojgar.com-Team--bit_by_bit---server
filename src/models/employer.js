@@ -18,11 +18,18 @@ const employerSchema = new mongoose.Schema({
         }
     },
     phone:{
-        type:Number ,
+        type: String ,
         min: 10 ,
         // max: 10 ,
-        requiredt: true ,
-        unique:true 
+        required: true ,
+        unique:true ,
+        validate(value)
+        {
+            if(!validator.isMobilePhone(value))
+            {
+                throw new Error("Invalid phone number");
+            }
+        }
     },
     address:{
         type:String,
