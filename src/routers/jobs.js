@@ -4,6 +4,9 @@ const jobsRouter= express.Router();
 
 
 jobsRouter.get("/jobs",(req,res)=>{
-    res.send("Hello from jobs router ")
+    res.send("Hello from jobs router ");
+})
+jobsRouter.post("/jobs",(req,res)=>{
+    
 })
 module.exports = jobsRouter;
