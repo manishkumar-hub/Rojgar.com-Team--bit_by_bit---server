@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const validator = require("validator");
 
-const employeeSchema = new mongoose.Schema({
+const employerSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true,
@@ -32,6 +32,6 @@ const employeeSchema = new mongoose.Schema({
 
 // we will create new mongoose.Collection
 
-const employee= new mongoose.model('employee',employeeSchema);
+const employer= new mongoose.model('employer',employerSchema);
 
-module.exports= employee ;
+module.exports= employer ;
