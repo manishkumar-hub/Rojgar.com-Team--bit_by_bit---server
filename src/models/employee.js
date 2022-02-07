@@ -39,6 +39,10 @@ const employeeSchema= new mongoose.Schema({
     },
     experience :{
         type: Number
+    },
+    password: {
+        type: String,
+        minlength: 8
     }
 });
 

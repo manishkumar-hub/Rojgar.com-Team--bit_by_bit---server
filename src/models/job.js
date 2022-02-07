@@ -12,7 +12,7 @@ const jobSchema= new mongoose.Schema({
     },
     date :{
         type: Date,
-        required : true 
+        default: Date.now 
     },
     salary :{
         type: Number ,

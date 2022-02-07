@@ -34,6 +34,13 @@ const employerSchema = new mongoose.Schema({
     address:{
         type:String,
         required: true
+    },
+    jobsPosted:{
+        type: Array
+    },
+    password: {
+        type: String,
+        minlength: 8
     }
 });
 
