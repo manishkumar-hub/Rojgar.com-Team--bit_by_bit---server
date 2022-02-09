@@ -4,7 +4,16 @@ const employerSchema= require("../models/employer");
 
 //get employer data
 employerRouter.get("/employer",(req,res)=>{
-    res.send("Hello from employer router ")
+    // res.send("Hello from employer router ")
+    try {
+        const id = req.params.id
+        const employer = await employerSchema.findById(id)
+        res.send(employer)
+      } catch (e) {
+        console.log(e)
+        res.status(500).send(e)
+      }
+
 })
 //signup
 employerRouter.post("/registeremployer",(req,res)=>{
