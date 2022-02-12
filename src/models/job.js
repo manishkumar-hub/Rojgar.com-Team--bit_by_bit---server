@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const validator = require("validator");
-// Schema fields:id job title, job description, date of posting , salary, openings
+// Schema fields:title,description,date,salary,openings,experienceRequired
 const jobSchema= new mongoose.Schema({
     title:{
         type: String,
@@ -21,6 +21,17 @@ const jobSchema= new mongoose.Schema({
     openings :{
         type: Number ,
         required: true
+    },
+    gmail:{
+        type: String,
+        required:true 
+    },
+    contactNumber: {
+        type: Number,
+        required: true
+    },
+    userApplied: {
+        type: Array,
     },
     experienceRequired :{
         type: Number,
