@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const DB= "mongodb+srv://manishkumar12:Manish%40122%23@cluster0.1okix.mongodb.net/RestfulAPI?retryWrites=true&w=majority";
+const DB= "mongodb://localhost/rojgar";
 
 mongoose.connect(DB,{
     useNewUrlParser: true ,

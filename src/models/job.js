@@ -30,6 +30,10 @@ const jobSchema= new mongoose.Schema({
         type: Number,
         required: true
     },
+    organisation:{
+        type: String,
+        required:true
+    },
     userApplied: {
         type: Array,
     },
