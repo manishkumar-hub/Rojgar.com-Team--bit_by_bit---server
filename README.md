@@ -20,7 +20,7 @@
 
 3.) **MongoDB** : Used to store employer, job and job seeker data.
 
-4.) **Modules Used**: Express js ,  Mongoose & Cookies js
+4.) **Modules Used**: Express js ,Mongoose & Cookies js
 
 <hr style="border:2px solid gray"> </hr>
 
