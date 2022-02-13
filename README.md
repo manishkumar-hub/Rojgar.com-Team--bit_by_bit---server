@@ -50,6 +50,9 @@
  <hr style="border:2px solid gray"> </hr>
 
 ## Video Presentation Link
-https://youtu.be/ho8-uua1ntchttps://youtu.be/ho8-uua1ntc
-
+  
+ ### [Video](https://youtu.be/ho8-uua1ntc)
+<!--     [ppt](https://drive.google.com/file/d/1TfGjF9EV_RJyglFbg2aZl8It0jcFdr1O/view?usp=sharing) -->
+    
+ <hr style="border:2px solid gray"> </hr>
     
